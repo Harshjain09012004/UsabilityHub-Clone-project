@@ -1,0 +1,733 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+*,html,body,main
+{
+    scroll-behavior: smooth !important;
+}
+body
+{
+    overscroll-behavior: none;
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    height: 21vh;
+    width: 100%;
+    gap: 5%;
+    
+}
+
+.banner
+{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b7e4d7973addf81ed1f4010_pattern.png");
+    
+    background-size:250px;
+    background-color: #4dadf7d6;
+    font-size: 18px;
+    
+}
+
+nav
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left
+{
+   width: 30%;
+   height: 100%;
+
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.left img
+{
+    height: 60%;
+   
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.left a
+{
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+    border: 2px solid rgb(166, 216, 247);
+    background-color: rgb(184, 221, 244);
+
+    border-radius: 4px;
+    height:60%;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+li 
+{
+    margin-top: 2.4%;
+}
+
+.right
+{
+    height: 100%;
+    width: 60%;
+    
+    display: flex;
+    
+}
+
+#Sign
+{
+    background-color: white;
+    border-color:rgb(120, 163, 254);
+}
+
+#Trial
+{
+    background-color: #2294ed;
+    border-color: rgb(100, 174, 201);
+    color: white;
+}
+
+.button
+{
+
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.right button
+{
+   width: 46%;
+   height: 90%;
+   font-size: 18px;
+   border-radius: 5px;
+}
+
+.first
+{
+    height: 63vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.content
+{
+    font-size: 20px;
+    line-height: 140%;
+    align-self: center;
+    width:30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column ;
+    
+    justify-content: space-around;
+    text-align: justify;
+
+}
+.heading
+{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    justify-content: space-between;
+}
+
+.content h2{
+    font-size: 48px;
+}
+
+.content p
+{
+    color: rgb(133, 128, 128);
+}
+
+
+.image
+{
+    width: 50%;
+    height: 100%;
+
+}
+.image img
+{
+    height: 90%;
+    width:80%;
+}
+
+.trial2
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    height: 30%;
+    width: 70%;
+    text-align: center;
+}
+.trial2 button
+{
+    height: 60%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4fabf1;
+    border-radius: 5px;
+    border-color: rgb(147, 227, 249);
+}
+
+.companies
+{
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: space-around;
+
+}
+#Message
+{
+    text-align: center;
+}
+.logo
+{
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+
+}
+
+.logo img
+{
+    height: 80%;
+    width: 7%;
+}
+
+#Box
+{
+    width: 3.7%;
+    height: 80%;
+}
+
+.Information
+{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0.1%;
+    align-items: center;
+
+    justify-content: space-evenly;
+    background-image: url(https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af98b9f779b5a7d0a80351e_Oval%201.svg);
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-size:55% 100%;
+    
+
+
+}
+
+#SeeAll
+{
+    
+    height: 6%;
+    width: 12%;
+    
+
+}
+
+.LearnMore
+{
+    height: 16%;
+    width: 50%;
+}
+
+.Information button
+{
+    border-radius: 5px;
+    border: 1px solid #a7a5a597;
+    background-color: rgba(255, 255, 255, 0.594);
+
+}
+
+.MultipleCards
+{
+
+    width: 70%;
+    height:35%;
+    display: flex;
+
+   
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.MultipleCards2
+{
+    width: 70%;
+        height: 35%;
+        display: flex;
+       
+    
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+}
+
+.card
+{
+  height: 100%;
+  width: 23%;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+
+  align-items: center;
+ 
+  text-align: center;
+
+
+}
+
+.card img
+{
+    height: 20%;
+}
+.card h3
+{
+    font-size: 24px;
+}
+
+.card p
+{
+    font-size: 19px;
+    line-height: 140%;
+    color: rgb(121, 119, 119);
+}
+
+.Services
+{
+    display: flex;
+    flex-direction: column;
+    height: 250vh;
+    width: 100%;
+    align-items: center;
+}
+
+.advantages
+{
+    display: flex;
+    width: 90%;
+    height:40%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.advantages .image
+{
+
+    height: 90%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantages img
+{
+    height: 90%;
+    width: 80%;
+}
+.content
+{
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+}
+
+.know
+{
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.message
+{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#message p
+{
+    color: black;
+}
+.about
+{
+ display: flex;
+  gap: 1%;
+}
+
+.authorimage
+{
+    height: 95%;
+    width: 16%;
+}
+
+.Links
+{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Links h1
+{
+    font-size: 42px;
+}
+
+.Links button
+{
+    width: 15%;
+    height: 9%;
+    font-size: 17px;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #6fbdf9;
+}
+.imagelinks
+{
+    
+    width:90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imagelinks a
+{
+    width: 21%;
+    height: 100%;
+    position: relative;
+   
+}
+
+.linkcontainer
+{
+   
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.linkcontainer img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    
+   
+}
+
+.overlay
+{
+    
+    background-color: rgba(9, 9, 9, 0.411);
+    height:100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: end;
+    padding: 7%;
+    border-radius: 7px;
+    color: white;
+   
+}
+
+#specialities
+{
+    background-color: #183b54;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 90vh;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 6%;
+   
+
+
+}
+#tagline p
+{
+  font-size: 18px;
+}
+
+#image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    width: 40%;
+    background-image: url("https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5afa8ec41bc1893d6b1b14d4_homepage_panel.png");
+    background-size: cover;
+}
+
+#description
+{
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+#description h1
+{
+    font-size: 38px;
+}
+#description  p
+{
+    color: #b9cde4;
+    line-height: 150%;
+}
+#panel
+{
+    display: flex;
+    flex-direction: column;
+    height: 26%;
+    justify-content: space-between;
+}
+#tagline p
+{
+    padding-top: 3%;
+}
+
+.list
+{
+    display: flex;
+    color: #b9cde4;
+    height: 70%;
+    justify-content: space-around;
+    font-size: 17px;
+
+}
+
+#calculatorbutton
+{
+    display: flex;
+    font-size: 18px;
+    height: 10%;
+    width: 70%;
+    justify-content: space-evenly;
+}
+#calculatorbutton p
+{
+    padding-top: 3%;
+}
+
+#trybutton
+{
+    height: 90%;
+    width: 55%;
+    border-radius: 5px;
+    background-color: #4dadf7d6;
+    color: white;
+    border-width: 1px;
+    font-size: bolder;
+    font-size: 16.4px;
+}
+#learnmore
+{
+    height: 90%;
+    width: 34%;
+    border-radius: 5px;
+    background-color: #183b54;
+    color: rgb(142, 187, 250);
+    border-color: #4fabf1;
+    border-width: 1px;
+    font-size: bolder;
+    font-size: 16.4px;
+
+}
+
+.use
+{
+    
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Top
+{
+    width: 38%;
+    font-size: 26px;
+    text-align: center;
+
+}
+.middle
+{
+    width: 34%;
+    font-size: 20px;
+    color: #627194;
+    text-align: center;
+}
+.bottom
+{
+    width: 38%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.bottom button
+{
+    height: 54%;
+    width: 30%;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color:#1c9bfcd6;
+    color: white;
+    border-radius: 5px;
+    border-color: #49acfc;
+    border-width: 1px;
+}
+
+.bottom p
+{
+    color: grey;
+    font-size: 14px;
+}
+
+#extrafeature
+{
+    display: flex;
+    background-color: #ebf2fa;
+    height: 60vh;
+    width: 100%;
+    padding-top:7%;
+    justify-content: space-evenly;
+
+}
+
+#extrafeature ul 
+{
+  display: flex;
+  flex-direction: column;
+  height: 62%;
+  width:100%;
+  font-size: 17px;
+}
+
+#extrafeature a
+{
+    color: grey;
+}
+
+#extrafeature h3
+{
+    padding-bottom: 8%;
+}
+
+#extrainformation
+{
+    display: flex;
+    background-color: #b5cae1;
+    
+    height: 8vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#policies
+{
+    display: flex;
+    width:150%;
+    
+    justify-content: space-evenly;
+    color: rgb(49, 49, 49);
+    height: 50%;
+
+
+}
+
+#socialaccounts
+{
+    display: flex;
+    width: 17%;
+    height: 50%;
+    justify-content: space-evenly;
+    padding-top:5px;
+}
+#socialaccounts img
+{
+    height: 65%;
+}
